@@ -1,8 +1,11 @@
 /* 헤더 */
 header {
-  margin-top: 10px;
+  position: fixed;
+  padding-top: 10px;
   border-bottom: 1px solid #d3d6da;
   padding-bottom: 10px;
+  width: 100vw;
+  background-color: white;
 }
 /* 인포바 */
 .info-bar {
