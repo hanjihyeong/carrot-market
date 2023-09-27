@@ -19,13 +19,15 @@ const handleSubmit = async (event) => {
 
   if (checkPassword()) {
     const res = await fetch("/signup", {
-      method: "post",
+      method: "POST",
       body: formData,
     });
     const data = await res.json();
     if (data === "200") {
-      div.innerText = "Success";
-      div.style.color = "blue";
+      // div.innerText = "Success";
+      // div.style.color = "blue";
+      alert("Successfully Sign Up");
+      window.location.pathname = "/login.html";
     }
   } else {
     div.innerText = "The password is not the same.";
