@@ -17,3 +17,5 @@ const handleSubmitForm = async (event) => {
 };
 
 form.addEventListener("submit", handleSubmitForm);
+
+// form.addEventListener("submit", handleSubmitForm);
